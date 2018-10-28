@@ -1,5 +1,8 @@
 # linear-regression
 利用R生成线性回归模型报表
+<br/>
+提供了rmd与r的代码，其中lm.rmd用于报表生成
+docx和html为lm.rmd生成的例子
 
 ----------------
 
