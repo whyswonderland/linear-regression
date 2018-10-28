@@ -3,7 +3,7 @@
 <br/>
 提供了rmd与r的代码，其中lm.rmd用于报表生成
 <br/>
-docx和html为lm.rmd生成的例子
+docx和html是lm.rmd生成的例子
 ----------------
 
 报表包含：
@@ -34,18 +34,18 @@ docx和html为lm.rmd生成的例子
 
 
 代码中可供调节的变量
-*data 回归数据 
+* data 回归数据 
 以数据框为格式 第一列储存因变量y 第二列往后自变量x1 x2
 
-*formula 回归方程
+* formula 回归方程
 注意回归方程中变量名字对应data中列名
 
-*lb，ub 加权最小二次中遍历搜索的下界上界
+* lb，ub 加权最小二次中遍历搜索的下界上界
 s 遍历搜索的下界上界的步长
 
-*bc lambda
+* bc lambda
 boxcox变换遍历搜索的范围
 
-*formula_start
+* formula_start
 逐步回归中的初始回归方程
 
